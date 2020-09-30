@@ -4,7 +4,7 @@ $User_DB = "jurva";
 $Password_DB ="";
 $Database ="";
 
-function Connect_database()
+function ConnectDatabase()
 {
 	$Link = mysqli_connect($Server, $User_DB, $Password_DB, $Database);
 	
