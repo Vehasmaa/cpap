@@ -1,8 +1,8 @@
 <?php
 $Server = "127.0.0.1";
-$User_DB = "jurva";
-$Password_DB ="";
-$Database ="";
+$User_DB = "Jurva2";
+$Password_DB ="Dra200xs";
+$Database ="Jurva2";
 
 function ConnectDatabase()
 {
@@ -16,7 +16,7 @@ function ConnectDatabase()
 		exit;
 	}
 
-	return $Link
+	return $Link;
 }
 
 

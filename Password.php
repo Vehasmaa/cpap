@@ -16,11 +16,12 @@ function CheckPassword($UserName,$Password)
 		# Password mach
 		$_SESSION['User'] = $UserName;
 		$_SESSION['LoggedIn'] = TRUE;
+		return TRUE;
 	}
 	else
 	{
 		session_destroy();
-		exit;
+		return FALSE;
 	}
 
 }
